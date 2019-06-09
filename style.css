@@ -140,3 +140,79 @@ header nav ul li a {
 }
 
 /****** slut splash *****/
+
+
+.item img {
+    height: 400px;
+    width: 400px;
+}
+
+
+.rows {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 6rem;
+
+}
+
+.item img {
+    flex-direction: row;
+    padding: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*.item img {
+    height: 400px;
+    width: 400px;
+}
+
+/*.container {
+    display: grid;
+    grid-template-columns: 20px 20px;
+    grid-template-rows: 400px 400px 400px 400px;
+    grid-gap: 10px;
+    padding: 1rem;
+
+}
+
+.item {
+    display: grid;
+    align-items: center;
+}
+
+.responsivtsite {
+    grid-column: 2/span 3;
+
+}
+
+.animationsopgave {
+    grid-column: 2/span 4;
+}
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/****** slut splash *****/
