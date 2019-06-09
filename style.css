@@ -142,21 +142,25 @@ header nav ul li a {
 /****** slut splash *****/
 
 
-.item img {
+.item1 img {
     height: 400px;
     width: 400px;
 }
 
+.item1 h2 {
+    justify-content: center;
+
+}
 
 .rows {
     display: flex;
     flex-wrap: wrap;
     padding: 6rem;
+    margin-top: -2rem;
 
 }
 
 .item img {
-    flex-direction: row;
     padding: 1rem;
 }
 
