@@ -25,7 +25,12 @@ header {
     box-sizing: border-box;
 }
 
-
+header .intialer {
+    height: 50px;
+    line-height: 50px;
+    font-size: 24px;
+    float: left;
+}
 
 header nav {
     float: right;
