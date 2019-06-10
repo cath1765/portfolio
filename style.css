@@ -141,16 +141,16 @@ header nav ul li a {
 
 /****** slut splash *****/
 
+/****** start portfolio *****/
 
-.item1 img {
+
+.item img {
     height: 400px;
     width: 400px;
+    padding: 1rem;
 }
 
-.item1 h2 {
-    justify-content: center;
 
-}
 
 .rows {
     display: flex;
@@ -158,65 +158,23 @@ header nav ul li a {
     padding: 6rem;
     margin-top: -2rem;
 
-}
 
-.item img {
-    padding: 1rem;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-/*.item img {
-    height: 400px;
-    width: 400px;
-}
-
-/*.container {
-    display: grid;
-    grid-template-columns: 20px 20px;
-    grid-template-rows: 400px 400px 400px 400px;
-    grid-gap: 10px;
-    padding: 1rem;
 
 }
 
-.item {
-    display: grid;
-    align-items: center;
+
+/****** slut portfolio *****/
+
+
+.profile_icon {
+    float: left;
+    margin-top: calc((4px - 20px) / 5);
+    margin-right: 16px;
+
 }
 
-.responsivtsite {
-    grid-column: 2/span 3;
+.profile_icon img {
+    height: 50px;
+
 
 }
-
-.animationsopgave {
-    grid-column: 2/span 4;
-}
-
-*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/****** slut splash *****/
