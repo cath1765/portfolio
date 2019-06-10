@@ -124,20 +124,6 @@ header nav ul li a {
 
 
 
-/* mobil */
-@media only screen and (min-width: 401px) {
-    #splash {
-        background-position: 50% 0%;
-    }
-}
-
-/* web */
-@media only screen and (min-width: 992px) {
-    #splash {
-        background-position: 50% 0%;
-    }
-
-}
 
 /****** slut splash *****/
 
@@ -176,5 +162,141 @@ header nav ul li a {
 .profile_icon img {
     height: 50px;
 
+
+}
+
+
+
+/****** slut portfolio *****/
+
+/****** start responsivt*****/
+
+
+
+#responsivt .section_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff7f7;
+    margin: 0 20px;
+    letter-spacing: 1px;
+    max-width: 1200px;
+    margin-top: 1rem;
+}
+
+#responsivt .content {
+    flex-grow: 1;
+    flex-basis: 300px;
+}
+
+#responsivt h1 {
+    padding-left: 8rem;
+    font-size: 2rem;
+}
+
+#responsivt p {
+    font-size: 1.5rem;
+    letter-spacing: 0.1em;
+}
+
+
+#responsivt img {
+    height: 300px;
+    width: 458px
+}
+
+
+
+
+
+
+
+
+
+
+/*#body .farve {
+    background-color: aqua;
+}
+
+
+#forside_page .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#forside_page .col {
+    margin: 2rem;
+    background-color: rgba(250, 198, 198, 0.8);
+    max-width: 1200px;
+    width: 100%;
+
+}
+
+#forside_page .col h1 {
+    font-size: 3rem;
+
+
+}
+
+.forsidesplash .img {
+    height: 30px;
+    width: 100px;
+}
+*/
+
+
+
+
+
+/****** start om*****/
+
+#om .omwrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.om .omcontent {
+    flex-grow: 1;
+    flex-basis: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/****** Media queries *****/
+/****** forside *****/
+
+/* mobil */
+@media only screen and (min-width: 401px) {
+    #splash {
+        background-position: 50% 0%;
+    }
+}
+
+/* web */
+@media only screen and (min-width: 992px) {
+    #splash {
+        background-position: 50% 0%;
+    }
 
 }
