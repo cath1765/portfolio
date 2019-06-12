@@ -398,8 +398,8 @@ footer {
 }
 
 img {
-    height: 400px;
-    width: 400px;
+    height: 500px;
+    width: 500px;
 }
 
 
@@ -416,7 +416,7 @@ img {
 }
 
 /*video*/
-#play-pause {
+/*#play-pause {
     color: red;
     background-color: black;
     border-radius: 40px;
@@ -451,7 +451,7 @@ img {
     text-shadow: 2px 2.1px 3px #d04f20;
 
 }
-
+*/
 
 .item {
     display: inline-block;
