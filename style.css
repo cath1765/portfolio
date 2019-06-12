@@ -271,7 +271,7 @@ header nav ul li a {
 
 /****** slut portfolio *****/
 /****** start animation *****/
-
+/****** start aabenbar *****/
 
 img {
     width: 100%;
@@ -346,7 +346,7 @@ footer {
 }
 
 .sectionwrapper {
-    background-color: #fff0f0;
+    background-color: #fff6d8;
     padding: 0 2rem;
 }
 
@@ -358,7 +358,7 @@ footer {
     margin-top: 0.5rem;
 }
 
-/*#analyse .top {
+#analyse .top {
     display: flex;
     justify-content: space-between;
 }
@@ -388,7 +388,8 @@ footer {
     flex-basis: 20px;
     flex-grow: 1;
 }
-*/
+
+
 #kodning img {
     height: 400px;
     width: 400px;
@@ -411,7 +412,7 @@ footer {
 }
 
 /*video*/
-/*#play-pause {
+#play-pause {
     color: red;
     background-color: black;
     border-radius: 40px;
@@ -446,7 +447,7 @@ footer {
     text-shadow: 2px 2.1px 3px #d04f20;
 
 }
-*/
+
 
 .item {
     display: inline-block;
@@ -496,3 +497,4 @@ footer {
 
 
 /****** slut animation *****/
+/****** start aabenbar *****/
