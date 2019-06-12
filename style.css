@@ -233,7 +233,7 @@ header nav ul li a {
 }
 
 #afarve {
-    background-color: #ff7968;
+    background-color: #ed6351;
 }
 
 
@@ -294,7 +294,7 @@ h1 {
     font-family: sans-serif;
     font-weight: bold;
     text-transform: uppercase;
-    background-color: #f7aaaa;
+    background-color: #ffbf80;
     color: black;
 }
 
@@ -330,7 +330,7 @@ figure {
 
 figcaption {
     margin-bottom: 1rem;
-    color: wheat;
+    color: #000000;
     font-size: 1.2rem;
 }
 
@@ -339,14 +339,14 @@ section#color,
 footer {
     max-width: 1200px;
     margin: 0 auto;
-    border: 1px solid #4a0b0b;
-    background-color: #4a0b0b;
+    border: 1px solid #bc7b7b;
+    background-color: #020202;
 
 
 }
 
 .sectionwrapper {
-    background-color: #ffe7e7;
+    background-color: #fff0f0;
     padding: 0 2rem;
 }
 
@@ -358,7 +358,7 @@ footer {
     margin-top: 0.5rem;
 }
 
-#analyse .top {
+/*#analyse .top {
     display: flex;
     justify-content: space-between;
 }
@@ -388,6 +388,7 @@ footer {
     flex-basis: 20px;
     flex-grow: 1;
 }
+*/
 
 
 .masonry {
@@ -401,7 +402,7 @@ footer {
 }
 
 /*video*/
-#play-pause {
+/*#play-pause {
     color: red;
     background-color: black;
     border-radius: 40px;
@@ -436,7 +437,7 @@ footer {
     text-shadow: 2px 2.1px 3px #d04f20;
 
 }
-
+*/
 
 .item {
     display: inline-block;
@@ -454,6 +455,9 @@ footer {
 .item img {
     max-width: 100%;
 }
+
+
+
 
 /* STILL FOTOS CSS */
 @media only screen and (max-width: 320px) {
