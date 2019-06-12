@@ -397,6 +397,10 @@ footer {
 
 }
 
+img {
+    height: 400px;
+    width: 400px;
+}
 
 
 
@@ -465,7 +469,6 @@ footer {
 .item img {
     max-width: 100%;
 }
-
 
 
 
