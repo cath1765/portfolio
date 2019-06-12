@@ -25,12 +25,6 @@ header {
     box-sizing: border-box;
 }
 
-header .intialer {
-    height: 50px;
-    line-height: 50px;
-    font-size: 24px;
-    float: left;
-}
 
 header nav {
     float: right;
@@ -83,8 +77,8 @@ header nav ul li a {
     header nav {
         position: absolute;
         width: 100%;
-        height: calc(50vh - 50px);
-        background-color: #ffa59a;
+        height: calc(30vh - 50px);
+        background-color: #F58E81;
         top: 50px;
         left: 100%;
         transition: 0.5s;
@@ -204,74 +198,47 @@ header nav ul li a {
     width: 458px
 }
 
+/****** slut responsivt*****/
 
+/****** start about*****/
 
-
-
-
-
-
-
-
-/*#body .farve {
-    background-color: aqua;
-}
-
-
-#forside_page .sectionwrapper {
+#about .wrapper {
     display: flex;
     flex-wrap: wrap;
-}
-
-#forside_page .col {
-    margin: 2rem;
-    background-color: rgba(250, 198, 198, 0.8);
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 0 20px;
+    letter-spacing: 1px;
     max-width: 1200px;
-    width: 100%;
-
+    margin-top: 1rem;
 }
 
-#forside_page .col h1 {
-    font-size: 3rem;
 
-
-}
-
-.forsidesplash .img {
-    height: 30px;
-    width: 100px;
-}
-*/
-
-
-
-
-
-/****** start om*****/
-
-#om .omwrapper {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.om .omcontent {
+#about .content {
     flex-grow: 1;
     flex-basis: 300px;
 }
 
+#about img {
+    height: 540px;
+    width: 444px
+}
+
+#about h2 {
+    font-size: 2rem;
+    padding-left: 1rem;
+}
+
+#about p {
+    padding-left: 1rem;
+}
+
+#afarve {
+    background-color: #ff7968;
+}
 
 
 
-
-
-
-
-
-
-
-
-
-
+/****** slut about*****/
 
 
 
@@ -300,3 +267,219 @@ header nav ul li a {
     }
 
 }
+
+
+/****** slut portfolio *****/
+/****** start animation *****/
+
+
+img {
+    width: 100%;
+    margin-top: 1rem;
+}
+
+a {
+    color: black;
+    font-size: 2rem;
+}
+
+h1 {
+    margin-left: -2rem;
+    margin-right: -2rem;
+
+
+    padding: 0.7rem;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #f7aaaa;
+    color: black;
+}
+
+h2 {
+    color: black;
+    font-size: 2rem;
+}
+
+h3 {
+    color: #f5934b;
+    font-size: 2rem;
+}
+
+p {
+    font-size: 2rem;
+    color: black;
+    margin-bottom: 1.5rem;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    color: #000000;
+}
+
+li {
+    font-size: 2rem;
+}
+
+figure {
+    margin: 0;
+}
+
+figcaption {
+    margin-bottom: 1rem;
+    color: wheat;
+    font-size: 1.2rem;
+}
+
+
+section#color,
+footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 1px solid #4a0b0b;
+    background-color: #4a0b0b;
+
+
+}
+
+.sectionwrapper {
+    background-color: #ffe7e7;
+    padding: 0 2rem;
+}
+
+.five-sec-person {
+    margin-bottom: 0;
+}
+
+.five-sec-answer {
+    margin-top: 0.5rem;
+}
+
+#analyse .top {
+    display: flex;
+    justify-content: space-between;
+}
+
+#analyse .colleft {
+    justify-content: center;
+    flex-basis: 20px;
+    flex-grow: 3.345;
+}
+
+#analyse .colright {
+    padding-left: 2rem;
+    justify-content: center;
+    flex-basis: 20px;
+    flex-grow: 1;
+}
+
+#analyse .colleft50 {
+    justify-content: center;
+    flex-basis: 20px;
+    flex-grow: 1;
+}
+
+#analyse .colright50 {
+    padding-left: 2rem;
+    justify-content: center;
+    flex-basis: 20px;
+    flex-grow: 1;
+}
+
+
+.masonry {
+    /* Masonry container */
+    column-count: 4;
+    column-gap: 1em;
+    margin: 1.5em;
+    padding: 0;
+    column-gap: 1.5em;
+    font-size: .85em;
+}
+
+/*video*/
+#play-pause {
+    color: red;
+    background-color: black;
+    border-radius: 40px;
+    height: 50px;
+    width: 100px;
+    text-transform: uppercase;
+    text-shadow: 2px 2.1px 3px #d04f20;
+
+
+}
+
+
+#mute {
+    color: red;
+    background-color: black;
+    border-radius: 40px;
+    height: 50px;
+    width: 100px;
+    text-transform: uppercase;
+    text-shadow: 2px 2.1px 3px #d04f20;
+}
+
+
+
+#full-screen {
+    color: red;
+    background-color: black;
+    border-radius: 40px;
+    height: 50px;
+    width: 100px;
+    text-transform: uppercase;
+    text-shadow: 2px 2.1px 3px #d04f20;
+
+}
+
+
+.item {
+    display: inline-block;
+    background: #fff;
+    padding: 1em;
+    margin: 0 0 1.5em;
+    width: 100%;
+    transition: 1s ease all;
+    box-sizing: border-box;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 4px 0 #ccc;
+}
+
+
+.item img {
+    max-width: 100%;
+}
+
+/* STILL FOTOS CSS */
+@media only screen and (max-width: 320px) {
+    .masonry {
+        column-count: 1;
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 768px) {
+    .masonry {
+        column-count: 2;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1200px) {
+    .masonry {
+        column-count: 3;
+    }
+}
+
+@media only screen and (min-width: 1201px) {
+    .masonry {
+        column-count: 4;
+    }
+}
+
+
+
+/****** slut animation *****/
